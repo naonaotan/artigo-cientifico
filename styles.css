@@ -1,0 +1,97 @@
+body {
+    background-color: #f7f8fa; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte limpa e moderna */
+    line-height: 1.6; /* Aumento do espaçamento entre linhas */
+    margin: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Estilo dos títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50; /* Cor dos títulos */
+    font-weight: 700; /* Peso da fonte dos títulos */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título principal */
+}
+
+h2 {
+    font-size: 2em; /* Tamanho dos subtítulos */
+}
+
+/* Estilo de links */
+a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhar links ao passar o mouse */
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 1.5em; /* Espaçamento entre parágrafos */
+}
+
+/* Estilo das listas */
+ul, ol {
+    margin-left: 1.5em; /* Recuo das listas */
+    margin-bottom: 1.5em; /* Espaçamento abaixo das listas */
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f7f7f7;
+    color: #333;
+    font-weight: bold;
+}
+
+.caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.fonte {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Imagem e mídia */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Estilo para destacar texto */
+.highlight {
+    color: #d90429;
+}
+
+.blue {
+    color: #007bff;
+}
